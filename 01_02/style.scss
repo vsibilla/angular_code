@@ -1,0 +1,25 @@
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+.container{
+    margin-top: 20px;
+    .hello{
+        text-align: center;
+        @include border-radius(10px);
+        background-color: #75bfff;
+        h1{
+            display: inline-block;
+            color: white;
+            text-align: center;
+        }
+        button{
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+}

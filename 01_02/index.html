@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang='it'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title> The HTML5 Bootstrap page</title>
+        <meta name="description" content="Esempio">
+        <meta name="author" content="Valerio Sibilla">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" hred="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hello container-fluid">
+                <h1>Hello world</h1>
+                <button type="button" data-toggle="tooltip"
+                data-placament="bottom" title="Primo esempio">
+                <span class="glyphicon glyphicon-info-sign"></span>
+            </button>
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function(){
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+.example div {
+  color: #1d99c5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.example2 div {
+  color: #ffff00; }
+
+/*# sourceMappingURL=style.css.map */
